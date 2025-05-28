@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Histogram with Chart.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <canvas id="histogram" width="400" height="200"></canvas>
+  <script>
+    const ctx = document.getElementById('histogram').getContext('2d');
+    const data = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5];
+    const binSize = 1;
+    const bins = [];
+    const labels = [];
+
+    // Calculate the number of bins
+    const min = Math.min(...data);
+    const max = Math.max(...data);
+    const numBins = Math.ceil((max - min + 1) / binSize);
+
+    // Initialize bins
+    for (let i = 0; i < numBins; i++) {
+      bins.push(0);
+      labels.push(`${min + i * binSize} - ${min + (i + 1) * binSize - 1}`);
+    }
+
+    // Count data points in each bin
+    data.forEach(value => {
+      const binIndex = Math.floor((value - min) / binSize);
+      bins[binIndex]++;
+    });
+
+    // Create the histogram chart
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Frequency',
+          data: bins,
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: 'Value Range'
+            }
+          },
+          y: {
+            title: {
+              display: true,
+              text: 'Frequency'
+            },
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
