@@ -1,0 +1,31 @@
+Sure! Here's a **short and simple revision note on Histograms**:
+
+---
+
+### 📊 **Histogram – Revision Note**
+
+* A **histogram** is a type of bar graph used to represent **continuous grouped data**.
+* It shows **frequency** through the **area** of bars, **not height alone**.
+* Bars are **joined together** (no gaps) because the data is continuous.
+* The **x-axis** represents **class intervals** (e.g., 0–10, 10–20).
+* The **y-axis** shows **frequency density**, not frequency directly.
+
+---
+
+### 🧮 **Key Formula**
+
+$$
+\text{Frequency Density} = \frac{\text{Frequency}}{\text{Class Width}}
+$$
+
+> This is used when class widths are **not equal**.
+
+---
+
+### ✅ **Key Points to Remember**
+
+* **Area of bar = Frequency**
+* Use histograms when data is **numerical and continuous**
+* Class intervals can be of **unequal widths**
+
+
