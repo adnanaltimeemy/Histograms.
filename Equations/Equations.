@@ -1,0 +1,137 @@
+Sure! Here's a **combined detailed revision note** on both **Equations** and **Histograms**, great for GCSE or secondary school exam prep.
+
+---
+
+## 📚 **Detailed Revision Notes: Equations & Histograms**
+
+---
+
+### 🧮 **Equations**
+
+#### 🔹 What is an Equation?
+
+* An **equation** is a mathematical sentence that **shows equality** between two expressions.
+* It contains an **equals sign (=)**.
+
+**Example:**
+
+$$
+2x + 3 = 11
+$$
+
+#### 🔹 Goal: Solve for the Unknown
+
+To **solve** an equation means to find the **value of the unknown variable** (usually x or y) that makes the equation true.
+
+#### 🔹 Basic Solving Steps
+
+1. **Simplify** both sides if needed.
+2. Use **inverse operations** to isolate the variable.
+3. **Keep the balance** – do the same operation on both sides.
+4. **Check** your solution by substituting it back into the equation.
+
+---
+
+#### 🔹 Types of Equations
+
+| Type                        | Example                   | Method                                  |
+| --------------------------- | ------------------------- | --------------------------------------- |
+| **One-step**                | $x + 5 = 12$              | Subtract 5 from both sides              |
+| **Two-step**                | $3x - 4 = 11$             | Add 4, then divide by 3                 |
+| **With brackets**           | $2(x + 3) = 14$           | Expand, then solve                      |
+| **With fractions**          | $\frac{x}{3} + 2 = 6$     | Subtract 2, then multiply by 3          |
+| **Variables on both sides** | $4x + 1 = 2x + 7$         | Rearrange terms, simplify, solve        |
+| **Quadratic equations**     | $x^2 - 5x + 6 = 0$        | Factorise or use quadratic formula      |
+| **Simultaneous equations**  | $x + y = 10$, $x - y = 2$ | Use substitution or elimination methods |
+
+---
+
+#### 🔹 Quadratic Formula (when needed)
+
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+For any equation in the form:
+
+$$
+ax^2 + bx + c = 0
+$$
+
+---
+
+### 📊 **Histograms**
+
+#### 🔹 What is a Histogram?
+
+* A **histogram** is a graphical way to show **continuous data**.
+* It looks like a bar chart, but:
+
+  * **Bars touch** (because data is continuous).
+  * The **area** of each bar represents **frequency**, not just the height.
+
+---
+
+#### 🔹 Key Terms
+
+| Term                  | Meaning                                             |
+| --------------------- | --------------------------------------------------- |
+| **Class interval**    | The groupings of continuous data (e.g. 0–10, 10–20) |
+| **Frequency**         | How many values fall into each interval             |
+| **Class width**       | The range of the interval (upper – lower bound)     |
+| **Frequency density** | Frequency divided by class width                    |
+
+---
+
+#### 🔹 Formula
+
+$$
+\text{Frequency Density} = \frac{\text{Frequency}}{\text{Class Width}}
+$$
+
+This is used **especially when class widths are not equal**.
+
+---
+
+#### 🔹 Steps to Draw a Histogram
+
+1. Calculate the **frequency density** for each class.
+2. Draw bars:
+
+   * **Width** = class width
+   * **Height** = frequency density
+3. Label axes clearly:
+
+   * **x-axis**: class intervals
+   * **y-axis**: frequency density
+4. No gaps between bars!
+
+---
+
+#### 🔹 Example
+
+| Class Interval | Frequency |
+| -------------- | --------- |
+| 0 – 5          | 10        |
+| 5 – 10         | 15        |
+| 10 – 20        | 30        |
+
+Class widths = 5, 5, 10
+Frequency densities:
+
+* $\frac{10}{5} = 2$
+* $\frac{15}{5} = 3$
+* $\frac{30}{10} = 3$
+
+---
+
+### ✅ Final Tips
+
+* Use **equations** to find unknown values.
+* Use **histograms** to represent grouped continuous data visually.
+* Always **label axes** and **show working** in exams.
+* **Check answers** by substituting or verifying with calculations.
+
+---
+
+
