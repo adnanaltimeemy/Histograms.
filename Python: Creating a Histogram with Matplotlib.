@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate random data
+data = np.random.randn(1000)
+
+# Create histogram
+plt.hist(data, bins=30, color='skyblue', edgecolor='black')
+
+# Add titles and labels
+plt.title('Histogram of Random Data')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
+
+# Display the plot
+plt.show()
