@@ -1,0 +1,6 @@
+# Generate random data
+data <- rnorm(1000)
+
+# Create histogram
+hist(data, breaks=30, col='skyblue', border='black',
+     main='Histogram of Random Data', xlab='Value', ylab='Frequency')
